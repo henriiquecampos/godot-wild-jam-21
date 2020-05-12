@@ -4,5 +4,5 @@
 
 [resource]
 script = ExtResource( 1 )
-max_amount = 600.0
+max_amount = 300.0
 fuel_loss_ratio = 0.25

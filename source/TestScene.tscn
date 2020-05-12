@@ -6,14 +6,41 @@
 [node name="TestScene" type="Node2D"]
 
 [node name="Planet" parent="." instance=ExtResource( 2 )]
-position = Vector2( 708.45, 221.579 )
+position = Vector2( 477.45, 405.579 )
 
 [node name="Planet2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 274, 98 )
+position = Vector2( 294, 231 )
 
 [node name="Planet3" parent="." instance=ExtResource( 2 )]
 position = Vector2( 388, 513 )
 
+[node name="Planet4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 488, 65 )
+
+[node name="Planet5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 244, -74 )
+
+[node name="Planet6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 422, -126 )
+
+[node name="Planet7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 594.692, -203.118 )
+
+[node name="Planet8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 941, -318 )
+
+[node name="Planet9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1036, -574 )
+
+[node name="Planet10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 871, -673 )
+
+[node name="Planet11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 721.149, -398.328 )
+
 [node name="PlayerSpaceship" parent="." instance=ExtResource( 1 )]
-position = Vector2( 176.059, 390.419 )
+position = Vector2( 331.982, 578.263 )
 speed = 1000.0
+
+[node name="Camera2D" type="Camera2D" parent="PlayerSpaceship"]
+current = true

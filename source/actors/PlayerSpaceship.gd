@@ -5,6 +5,7 @@ export(Resource) var fuel = preload("res://actors/Fuel.tres")
 
 onready var tween = $Tween
 onready var fuel_tween = $FuelTween
+onready var line = $Line2D
 
 var _planets = []
 
@@ -42,6 +43,8 @@ func move_to_planet():
 		tween.start()
 		yield(tween, "tween_completed")
 		_replenish_fuel()
+		line.add_point(line.to_local(planet_position))
+		planet.active = false
 	_planets.clear()
 
 
